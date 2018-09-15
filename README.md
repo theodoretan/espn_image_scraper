@@ -1,7 +1,7 @@
 
-[![Coverage Status](https://coveralls.io/repos/github/theodoretan/espn_image_scraper/badge.svg?branch=master)](https://coveralls.io/github/theodoretan/espn_image_scraper?branch=master) [![Build Status](https://travis-ci.org/theodoretan/espn_image_scraper.svg?branch=master)](https://travis-ci.org/theodoretan/espn_image_scraper)
+[![Build Status](https://travis-ci.org/theodoretan/espn_image_scraper.svg?branch=master)](https://travis-ci.org/theodoretan/espn_image_scraper) [![Coverage Status](https://coveralls.io/repos/github/theodoretan/espn_image_scraper/badge.svg?branch=master)](https://coveralls.io/github/theodoretan/espn_image_scraper?branch=master)
 
-# EspnImageScraper
+# ESPNImageScraper
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/espn_image_scraper`. To experiment with that code, run `bin/console` for an interactive prompt.
 

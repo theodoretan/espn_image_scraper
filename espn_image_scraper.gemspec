@@ -7,10 +7,10 @@ Gem::Specification.new do |gem|
   gem.name          = "espn_image_scraper"
   gem.authors       = ["Theodore Tan"]
   gem.email         = ["hi@theodoretan.com"]
-  gem.version       = EspnImageScraper::VERSION
+  gem.version       = ESPNImageScraper::VERSION
 
-  gem.summary       = %q{EspnImageScraper - Team logos from ESPN}
-  gem.description   = %q{EspnImageScraper takes logos of teams off of ESPN to use in your app}
+  gem.summary       = %q{ESPNImageScraper - Team logos from ESPN}
+  gem.description   = %q{ESPNImageScraper takes logos of teams off of ESPN to use in your app}
   gem.homepage      = "https://github.com/theodoretan/espn_image_scraper"
   gem.license       = "MIT"
 
@@ -21,8 +21,12 @@ Gem::Specification.new do |gem|
   gem.bindir        = "bin"
   gem.require_paths = ["lib"]
 
+  gem.add_runtime_dependency "httparty", "~> 0.16.1"
+  gem.add_runtime_dependency "nokogiri", "~> 1.8.2"
+
   gem.add_development_dependency "bundler", "~> 1.16"
   gem.add_development_dependency "rake", "~> 10.0"
   gem.add_development_dependency "rspec", "~> 3.2"
+  gem.add_development_dependency "pry", "~> 0.10.4"
   gem.add_development_dependency "coveralls", "~> 0.8.15"
 end

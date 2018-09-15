@@ -1,5 +1,4 @@
-require "espn_image_scraper/version"
+require 'httparty'
+require 'nokogiri'
 
-module EspnImageScraper
-  # Your code goes here...
-end
+require 'espn_image_scraper/base'
