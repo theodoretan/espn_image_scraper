@@ -1,3 +1,5 @@
+require 'httparty'
+
 module ESPNImageScraper
   class << self
     BASE_ROUTE = 'http://www.espn.com'

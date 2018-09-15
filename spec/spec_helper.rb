@@ -2,8 +2,9 @@ require 'coveralls'
 Coveralls.wear!
 
 require 'bundler/setup'
-require 'espn_image_scraper'
 require 'pry'
+
+require 'espn_image_scraper'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
