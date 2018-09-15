@@ -1,4 +1,3 @@
-require 'httparty'
 require 'nokogiri'
 
-require 'espn_image_scraper/base'
+require_relative 'espn_image_scraper/base'

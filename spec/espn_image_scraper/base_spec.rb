@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 RSpec.describe ESPNImageScraper do
   describe '.up?' do
     it 'returns true if the ESPN is running' do
